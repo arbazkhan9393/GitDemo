@@ -8,21 +8,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var a = 5
-    var b = 2
+    
+    var a = 20
+    var b = 10
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         addTwoNumbers()
+        subtractTwoNumbers()
+        print("Am going to merge dev in master")
     }
-
+    
     func addTwoNumbers() {
         print("Addtion of two numbers is: \(a+b)")
     }
     
     func multiplyTwoNumbers() {
         print("Product of \(a) and \(b) is: \(a*b)")
+    }
+    
+    func subtractTwoNumbers() {
+        NSLog("Subtraction of %i and %i is %i", a , b, (a-b))
     }
 }
 
