@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     func addTwoNumbers() {
         print("Addtion of two numbers is: \(a+b)")
     }
-
+    
+    func multiplyTwoNumbers() {
+        print("Product of \(a) and \(b) is: \(a*b)")
+    }
 }
 
