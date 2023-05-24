@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         addTwoNumbers()
         subtractTwoNumbers()
         print("Am going to merge dev in master")
+        print("How are you")
     }
     
     func addTwoNumbers() {
